@@ -1,0 +1,123 @@
+body{
+    margin-left: 450px;
+}
+
+#carrello {
+    width: 420px;
+    height: 820px;
+    border: 5px solid black;
+    float: left;
+    box-shadow: 2px 5px 4px 4px gray;
+    margin-right: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(0, 0, 255, 0.72);
+    color: white;
+    border-radius: 20px;
+
+
+}
+
+.btn {
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 8, 0.643);
+    box-shadow: 2px 2px 2px 2px;
+    margin-right: 5px;
+    text-shadow: 2px 2px 2px grey;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.removeBtn {
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 13, 0, 0.643);
+    box-shadow: 2px 2px 2px 2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 2px ;
+}
+
+li {
+    font-size: 30px;
+    border-bottom: 3px solid ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+ol{
+    float: left;
+}
+
+.cartText {
+    font-size: 20px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 2px black;
+    transition: 5.5s;
+}
+
+#cartItems {
+    float: right;
+    display: contents;
+    font-size: 30px;
+    color: rgb(17, 192, 17);
+    text-shadow: 2px 2px 2px black;
+    
+}
+
+#cartTotal {
+    position: relative;
+    top: 670px;
+    left: 86px;
+    font-size: 30px;
+    color: rgb(255, 213, 0);
+    text-shadow: 1px 2px 2px black;
+    
+}
+
+
+
+.total {
+    position: absolute;
+    bottom: 127px;
+    margin-left: 5px;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+}
+
+.items{
+    margin-left: 5px;
+    font-size: 30px;
+    
+    
+}
+
+p{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+.prezzoContainer{
+    display: ruby;
+    
+}
+
+.cartText{
+    text-shadow: 2px 2px 2px grey;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+#cartTitle{
+    text-align: center;
+    
+}
+
+.prezzoTitle{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+}
